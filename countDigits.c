@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int countDigits(int num)
-{
+{ 
     int original, count = 0, digit;
     original = num;
 
@@ -32,4 +32,5 @@ int main()
     printf("Count of divisible digits = %d\n", result);
 
     return 0;
+
 }
